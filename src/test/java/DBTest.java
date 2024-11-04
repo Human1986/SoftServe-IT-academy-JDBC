@@ -335,7 +335,7 @@ public class DBTest {
             //
             myUtils.createTableRoles();
             //
-            myUtils.insertTableRoles("Developer");
+            myUtils.insertTableRoles("Devel oper");
             result = myUtils.getRoleId("Developer") == 1;
             //
             myUtils.dropTable("Roles");

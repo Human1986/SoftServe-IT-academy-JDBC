@@ -6,7 +6,7 @@ import java.util.List;
 public class MyUtilsTest {
 	public static void main(String[] args) throws Exception {
 
-		//System.out.println(DBTest.checkStub());
+		System.out.println(DBTest.checkStub());
 		System.out.println("TypePresent - " + DBTest.isTypePresent("MyUtils"));
 		System.out.println("TypeClass - " + DBTest.isTypeClass("MyUtils"));
 		//
@@ -71,8 +71,8 @@ public class MyUtilsTest {
 		System.out.println("checkGetAllDevelopers - " + DBTest.checkGetAllDevelopers());
 		System.out.println("checkGetAllJavaProjects - " + DBTest.checkGetAllJavaProjects());
 		System.out.println("checkGetAllJavaDevelopers - " + DBTest.checkGetAllJavaDevelopers());
-		// */
-		//
+
+
 	}
 
 }
